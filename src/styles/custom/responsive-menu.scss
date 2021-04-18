@@ -1,0 +1,19 @@
+.menu_list {
+  position: relative;
+    top: 7rem;
+    margin-left: 15px;
+
+    .menu_list-mod {
+      margin-top: 20px;
+      font-size: 25px;
+      // color: white;
+    }
+}
+
+.title-loop {
+  flex: 1;
+  font-size: 30px;
+    font-weight: 600;
+    line-height: 1.6;
+    letter-spacing: 0.0075em;
+}

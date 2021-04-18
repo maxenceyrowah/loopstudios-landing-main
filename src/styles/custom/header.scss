@@ -1,0 +1,11 @@
+.header_wrapper {
+  background: url('../../shared/images/desktop/image-hero.jpg');
+  background-position: center;
+  height: 630px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .header_container {
+    margin: 0 50px;
+  }
+}

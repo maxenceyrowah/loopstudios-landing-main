@@ -1,0 +1,20 @@
+.navbar_container {
+  position: relative;
+  top: 2rem;
+
+  .navbar_logo {
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    font-family: 'Alata', 'sans-serif';
+  }
+
+  .navbar_menu {
+    text-align: right;
+
+    .navbar_link {
+      margin-right: 30px;
+      color: white;
+    }
+  }
+}
