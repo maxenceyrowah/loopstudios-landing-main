@@ -15,6 +15,10 @@
     .navbar_link {
       margin-right: 30px;
       color: white;
+
+      &:hover {
+        border-bottom: 2px solid white;
+      }
     }
   }
 }

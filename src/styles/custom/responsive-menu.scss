@@ -1,19 +1,21 @@
 .menu_list {
   position: relative;
-    top: 7rem;
-    margin-left: 15px;
+  top: 7rem;
+  margin-left: 15px;
 
-    .menu_list-mod {
-      margin-top: 20px;
-      font-size: 25px;
-      // color: white;
-    }
+  .menu_list-mod {
+    margin-top: 20px;
+    font-size: 25px;
+    color: white;
+    font-family: 'Josefin Sans', 'sans-serif';
+  }
 }
 
 .title-loop {
   flex: 1;
   font-size: 30px;
-    font-weight: 600;
-    line-height: 1.6;
-    letter-spacing: 0.0075em;
+  font-weight: 600;
+  line-height: 1.6;
+  letter-spacing: 0.0075em;
+  font-family: 'Alata', 'sans-serif';
 }

@@ -7,10 +7,6 @@ body {
   font-size: 15px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -25,4 +21,4 @@ code {
 @import './custom/navbar.scss';
 @import './custom/header.scss';
 @import './custom/header-content';
-@import "./custom/responsive-menu";
+@import './custom/responsive-menu';

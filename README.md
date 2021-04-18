@@ -1,6 +1,6 @@
 # Frontend Mentor - Loopstudios landing page
 
-![Design preview for the Loopstudios landing page coding challenge](shared/design/desktop-preview.jpg)
+![Design preview for the Loopstudios landing page coding challenge](src/shared/design/desktop-preview.jpg)
 
 ## Table of contents
 
@@ -89,7 +89,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 ## Author
 
 - Frontend Mentor - [@maxenceyrowah](https://www.frontendmentor.io/profile/maxenceyrowah)
-- Twitter - [@maxenceyrowah](https://www.twitter.com/maxenceyrowah)
+- Twitter - [@maxenceyrowah](https://www.twitter.com/Maxence_Yro)
 
 ## Acknowledgments
 
