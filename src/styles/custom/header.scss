@@ -1,9 +1,23 @@
+$position: center;
+$repeat: no-repeat;
+$size: cover;
+$height: 630px;
+
+@mixin background-shared {
+  background-position: $position;
+  background-repeat: $repeat;
+  background-size: $size;
+  height: $height;
+}
+
 .header_wrapper {
-  background: url('../../shared/images/desktop/image-hero.jpg');
-  background-position: center;
-  height: 630px;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url('../../shared/images/desktop/image-hero.jpg');
+  @include background-shared;
+
+  @media screen and (max-width: 900px) {
+    background-image: url('../../shared/images/mobile/image-hero.jpg');
+    @include background-shared;
+  }
 
   .header_container {
     margin: 0 50px;

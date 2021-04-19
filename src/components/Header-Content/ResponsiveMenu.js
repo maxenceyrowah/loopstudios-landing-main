@@ -2,7 +2,6 @@ import React, { useState, forwardRef } from 'react';
 import { Button, Dialog, ListItem, List, Toolbar, IconButton, Slide, Link, withStyles } from '@material-ui/core';
 import { Menu, Close } from '@material-ui/icons';
 
-
 const StyledDialog = withStyles({
   paperFullScreen: {
     width: '100%',
@@ -12,10 +11,9 @@ const StyledDialog = withStyles({
     maxHeight: 'none',
     borderRadius: 0,
     backgroundColor: 'black',
-    color: 'white',
+    color: 'white'
   }
 })(Dialog);
-
 
 const Transition = forwardRef(function Transition(props, ref) {
   return <Slide direction="left" ref={ref} {...props} />;
