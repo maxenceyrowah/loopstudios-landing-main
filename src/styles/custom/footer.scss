@@ -1,0 +1,49 @@
+.footer {
+  background-color: black;
+  height: 200px;
+  position: relative;
+  top: 8rem;
+  color: white;
+
+  .rows {
+    position: relative;
+    top: 4rem;
+    display: flex;
+    align-items: flex-end;
+    margin: auto 6rem;
+    justify-content: space-between;
+  }
+
+  .col-1 {
+    .col-1_title {
+      font-size: 28px;
+      font-family: 'Alata', 'sans-serif';
+    }
+    .col-1_menu_link {
+      font-family: 'Alata', 'sans-serif';
+      .col-1_menu_link--mod {
+        margin-right: 10px;
+        cursor: pointer;
+
+        &:hover {
+          border-bottom: 2px solid white;
+        }
+      }
+    }
+  }
+
+  .col-2 {
+    .col-2_icons {
+      margin-bottom: 15px;
+      margin-left: 8rem;
+
+      .col-2_icons--mod {
+        margin-right: 10px;
+      }
+    }
+
+    .col-2_copyright {
+      color: hsl(0, 0%, 55%);
+    }
+  }
+}

@@ -28,15 +28,18 @@ Users should be able to:
 ### Screenshot
 
 ###### Header
+
 ![Header](src/shared/images/screenshots/header.png)
 
 ###### Main
+
 ![Main-Part1](src/shared/images/screenshots/main-part1.png)
 
 ![Main-part2](src/shared/images/screenshots/main-part2.png)
 
 ###### Footer
-![Footer]()
+
+![Footer](src/shared/images/screenshots/footer.png)
 
 ### Links
 
