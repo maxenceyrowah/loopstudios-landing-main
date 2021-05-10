@@ -1,13 +1,11 @@
 import { Grid } from '@material-ui/core';
 
-const SectionOne = (props) => {
+const SectionOne = () => {
   return (
     <>
       <Grid container>
         <Grid item md={6} xs={12} sm={12}>
-          <div className="bloc-1">
-            <img src={props.logo} alt="" className="bloc-1-image" />
-          </div>
+          <div className="bloc-1"></div>
         </Grid>
         <Grid item md={6} xs={12} sm={12}>
           <div className="bloc-2">
