@@ -2,7 +2,7 @@ import { Grid, Hidden } from '@material-ui/core';
 
 const SectionTwo = () => {
   return (
-    <Grid container spacing={2} className="section-two">
+    <Grid container className="section-two">
       <Grid item md={12} sm={12} xs={12}>
         <Grid container alignItems="center">
           <Grid item md={6} xs={12}>
@@ -35,7 +35,7 @@ const SectionTwo = () => {
           </Grid>
 
           <Grid item md={12} xs={12} sm>
-            <Grid container className="row-2" spacing={2}>
+            <Grid container className="row-2">
               <Grid item md={3} xs={12} className="col--mod">
                 <p className="description">From up above VR</p>
               </Grid>
@@ -45,7 +45,7 @@ const SectionTwo = () => {
               <Grid item md={3} xs={12} className="col--mod">
                 <p className="description">The curiosity</p>
               </Grid>
-              <Grid item md={3} xs className="col--mod">
+              <Grid item md={3} xs={12} className="col--mod">
                 <p className="description">Make it fisheye</p>
               </Grid>
             </Grid>

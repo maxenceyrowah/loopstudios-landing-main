@@ -10,8 +10,6 @@
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
@@ -57,11 +55,6 @@ Users should be able to:
 - [React](https://reactjs.org/) - JS library
 - [Sass](https://sass-lang.com/) - For styles
 - [Material-ui](https://material-ui.com/)
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
 ### Useful resources
 
 - [How to install and Use Sass](https://scotch.io/starters/react/adding-sass-to-create-react-app-applications) -Very simple explanation to install and use sass in a react project
@@ -72,7 +65,3 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 - Frontend Mentor - [@maxenceyrowah](https://www.frontendmentor.io/profile/maxenceyrowah)
 - Twitter - [@maxenceyrowah](https://www.twitter.com/Maxence_Yro)
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.

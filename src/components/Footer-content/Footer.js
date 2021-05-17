@@ -10,39 +10,43 @@ const Footer = () => {
     <Grid container className="footer">
       <Grid item md={12} xs={12}>
         <Grid container className="footer-wrapper" spacing={2}>
-          <Grid item md={6} xs={12} className="footer-wrapper-col-1">
-            <Grid container className="col-1">
-              <Grid item md={12} xs={12}>
-                <p className="col-1_title">loopstudios</p>
-              </Grid>
-              <Grid item md={12}>
-                <span className="col-1_menu_link--mod">About</span>
-                <span className="col-1_menu_link--mod">Careers</span>
-                <span className="col-1_menu_link--mod">Events</span>
-                <span className="col-1_menu_link--mod">Products</span>
-                <span className="col-1_menu_link--mod">Support</span>
+          <Grid item md={6} xs={12} className="footer-wrapper-logo">
+            <Grid container>
+              <Grid item md={12} xs={12} className="col-1">
+                <div className="col-1_logo">
+                  <p className="col-1_title">loopstudios</p>
+                </div>
+                <div className="col-1_menu_link">
+                  <span className="col-1_menu_link--mod">About</span>
+                  <span className="col-1_menu_link--mod">Careers</span>
+                  <span className="col-1_menu_link--mod">Events</span>
+                  <span className="col-1_menu_link--mod">Products</span>
+                  <span className="col-1_menu_link--mod">Support</span>
+                </div>
               </Grid>
             </Grid>
           </Grid>
 
-          <Grid item md={6} xs={12} className="footer-wrapper-col-2 col-2">
+          <Grid item md={6} xs={12} className="footer-wrapper-icons">
             <Grid container>
-              <Grid item md={12}>
-                <span className="col-2_icons--mod facebook">
-                  <Facebook />
-                </span>
-                <span className="col-2_icons--mod twitter">
-                  <Twitter />
-                </span>
-                <span className="col-2_icons--mod pinterest">
-                  <Pinterest />
-                </span>
-                <span className="col-2_icons--mod instagram">
-                  <Instagram />
-                </span>
-              </Grid>
-              <Grid item md={12} xs={12}>
-                <p className="col-2_copyright"> © 2021 Loopstudios. All rights reserved.</p>
+              <Grid item md={12} xs={12} className="col-2">
+                <div className="col-2_icons">
+                  <span className="col-2_icons--mod facebook">
+                    <Facebook />
+                  </span>
+                  <span className="col-2_icons--mod twitter">
+                    <Twitter />
+                  </span>
+                  <span className="col-2_icons--mod pinterest">
+                    <Pinterest />
+                  </span>
+                  <span className="col-2_icons--mod instagram">
+                    <Instagram />
+                  </span>
+                </div>
+                <div className="col-2_copy">
+                  <p className="col-2_copyright"> © 2021 Loopstudios. All rights reserved.</p>
+                </div>
               </Grid>
             </Grid>
           </Grid>

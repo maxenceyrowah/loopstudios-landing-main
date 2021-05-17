@@ -5,7 +5,6 @@ $cursor: pointer;
 $opacity: 0.4;
 $transition: 0.3s;
 
-
 @mixin background-shared {
   background-repeat: $repeat;
   background-size: $size;
@@ -31,16 +30,16 @@ $transition: 0.3s;
     padding: 2rem;
     background-color: white;
     position: relative;
-    top: 15rem;
+    top: 16rem;
     left: -4rem;
 
     .bloc-2-title {
-     font-size: 60px;
+      font-size: 60px;
       margin-bottom: 20px;
     }
-
   }
 
+  
   //sectionTwo
   .section-two {
     position: relative;
@@ -68,14 +67,14 @@ $transition: 0.3s;
         transition: 0.5s;
       }
     }
-    .button--mod{
+    .button--mod {
       margin: 2rem auto;
     }
 
     .description {
       font-size: 35px;
       text-transform: uppercase;
-      width: 160px;
+      width: 165px;
       position: relative;
       top: 30rem;
       margin-left: 10px;
@@ -84,7 +83,6 @@ $transition: 0.3s;
 
     .row-1 {
       height: 600px;
-      position: relative;
 
       .col--mod:nth-child(1) {
         background-image: url('../../shared/images/desktop/image-deep-earth.jpg');
@@ -121,7 +119,6 @@ $transition: 0.3s;
       .col--mod:nth-child(3) {
         background-image: url('../../shared/images/desktop/image-curiosity.jpg');
         @include background-shared;
-
       }
       .col--mod:nth-child(4) {
         background-image: url('../../shared/images/desktop/image-fisheye.jpg');
@@ -130,7 +127,7 @@ $transition: 0.3s;
     }
   }
 
-  @media screen and (max-width: 960px){
+  @media screen and (max-width: 960px) {
     //section-one
     .bloc-2 {
       position: relative;
@@ -140,7 +137,7 @@ $transition: 0.3s;
       text-align: center;
     }
     .bloc-2-title {
-      font-size: 50px;
+      font-size: 30px;
     }
 
     //section-two
@@ -161,34 +158,38 @@ $transition: 0.3s;
         margin-left: 10px;
       }
 
-    .row-1 {
-      .col--mod:nth-child(1) {
-        background-image: url('../../shared/images/mobile/image-deep-earth.jpg');
+      .row-1 {
+        gap: 20px;
+
+        .col--mod:nth-child(1) {
+          background-image: url('../../shared/images/mobile/image-deep-earth.jpg');
+        }
+        .col--mod:nth-child(2) {
+          background-image: url('../../shared/images/mobile/image-night-arcade.jpg');
+        }
+        .col--mod:nth-child(3) {
+          background-image: url('../../shared/images/mobile/image-soccer-team.jpg');
+        }
+        .col--mod:nth-child(4) {
+          background-image: url('../../shared/images/mobile/image-grid.jpg');
+        }
       }
-      .col--mod:nth-child(2) {
-        background-image: url('../../shared/images/mobile/image-night-arcade.jpg');
-      }
-      .col--mod:nth-child(3) {
-        background-image: url('../../shared/images/mobile/image-soccer-team.jpg');
-      }
-      .col--mod:nth-child(4) {
-        background-image: url('../../shared/images/mobile/image-grid.jpg');
-      }
-    }
-    .row-2 {
-      .col--mod:nth-child(1) {
-        background-image: url('../../shared/images/mobile/image-from-above.jpg');
-      }
-      .col--mod:nth-child(2) {
-        background-image: url('../../shared/images/mobile/image-pocket-borealis.jpg');
-      }
-      .col--mod:nth-child(3) {
-        background-image: url('../../shared/images/mobile/image-curiosity.jpg');
-      }
-      .col--mod:nth-child(4) {
-        background-image: url('../../shared/images/mobile/image-fisheye.jpg');
+      .row-2 {
+        gap: 20px;
+
+        .col--mod:nth-child(1) {
+          background-image: url('../../shared/images/mobile/image-from-above.jpg');
+        }
+        .col--mod:nth-child(2) {
+          background-image: url('../../shared/images/mobile/image-pocket-borealis.jpg');
+        }
+        .col--mod:nth-child(3) {
+          background-image: url('../../shared/images/mobile/image-curiosity.jpg');
+        }
+        .col--mod:nth-child(4) {
+          background-image: url('../../shared/images/mobile/image-fisheye.jpg');
+        }
       }
     }
   }
-}
 }

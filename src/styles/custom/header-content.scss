@@ -14,13 +14,13 @@
     line-height: 1.235;
     letter-spacing: 0.00735em;
     padding: 15px;
-
-    @media screen and (max-width: 600px) {
-      font-size: 2.125rem;
-    }
   }
 
   @media screen and (max-width: 600px) {
     width: auto;
+    
+    .header-content-mod {
+      font-size: 2.125rem;
+    }
   }
 }
